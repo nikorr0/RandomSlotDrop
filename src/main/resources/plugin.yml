@@ -1,0 +1,14 @@
+name: RandomSlotDrop
+version: '1.0.0'
+main: io.github.nikorr0.randomSlotDrop.RandomSlotDrop
+api-version: '1.17'
+authors: [ nikorr0 ]
+description: Drops a configurable percentage of inventory slots and item stacks on player death, with optional full drop on Spectator.
+commands:
+  rsd:
+    usage: /rsd <enable|disable|reload|status|set>
+    permission: randomslotdrop.admin
+permissions:
+  randomslotdrop.admin:
+    description: Full control over RandomSlotDrop
+    default: op

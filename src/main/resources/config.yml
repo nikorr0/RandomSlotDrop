@@ -1,0 +1,14 @@
+# Enable or disable the plugin
+enabled: true
+
+# If set to true, the player’s full inventory will drop when they die and their gamemode is Spectator.
+spectatorFullDrop: true
+
+# Percentage of inventory slots to randomly select for partial drop on death.
+dropSlotsPercent: 25.0
+
+# Minimum percentage of items in a selected slot to drop when its stack size > 1.
+stackDropPercentMin: 20.0
+
+# Maximum percentage of items in a selected slot to drop when its stack size > 1.
+stackDropPercentMax: 80.0
