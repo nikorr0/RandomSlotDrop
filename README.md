@@ -1,5 +1,5 @@
 # RandomSlotDrop
-**RandomSlotDrop** is a plugin for the Paper/Purpur/Spigot/Bukkit servers (Minecraft Java Edition 1.17 - 1.21.*).  
+**RandomSlotDrop** is a plugin for the Paper/Folia servers (Minecraft Java Edition 1.20.2 - 1.21.*).  
 
 The plugin allows players to keep a portion of their inventory upon death. It introduces a configurable chance for dropping only a certain percent of random inventory slots, giving players a better experience by reducing frustration from losing everything after death.
 

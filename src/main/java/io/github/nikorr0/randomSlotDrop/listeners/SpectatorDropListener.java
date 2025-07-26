@@ -2,6 +2,7 @@ package io.github.nikorr0.randomSlotDrop.listeners;
 
 import io.github.nikorr0.randomSlotDrop.RandomSlotDrop;
 
+import io.papermc.paper.threadedregions.scheduler.RegionScheduler;
 import org.bukkit.*;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -32,7 +33,8 @@ public final class SpectatorDropListener implements Listener {
 
         // Adding delay because some mods/plugins setting player's
         // gamemode to spectator after a small delay
-        Bukkit.getScheduler().runTaskLater(plugin, () -> {
+        RegionScheduler scheduler = plugin.getServer().getRegionScheduler(); // Only for Folia and Paper
+        scheduler.runDelayed(plugin, loc, task -> {
             if (p.getGameMode() != GameMode.SPECTATOR) return;
 
             for (var item : p.getInventory().getContents()) {
@@ -42,7 +44,7 @@ public final class SpectatorDropListener implements Listener {
             p.getInventory().clear();
 
             // clearing record
-            plugin.clearDeath(p.getUniqueId());
+             plugin.clearDeath(p.getUniqueId());
 
         }, 10L);
     }
