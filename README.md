@@ -1,7 +1,7 @@
 # RandomSlotDrop
 **RandomSlotDrop** is a plugin for the Paper/Purpur/Spigot/Bukkit servers (Minecraft Java Edition 1.17 - 1.21.*).  
 
-[![Available on Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/plugin/nexuscoreteams)
+[![Available on Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/plugin/randomslotdrop)
 
 The plugin allows players to keep a portion of their inventory upon death. It introduces a configurable chance for dropping only a certain percent of random inventory slots, giving players a better experience by reducing frustration from losing everything after death.
 
